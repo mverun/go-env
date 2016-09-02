@@ -1,5 +1,11 @@
+---
+# We have created a temporary app in the gallery
+# We have created a delivery pipeline
 applications:
-- name: go-env
+# We have reserved a name/route for your app
+- name: maxgo
+  host: maxgo
+  domain: hcf.helion.lol
   buildpack: https://github.com/cloudfoundry/go-buildpack#v1.7.2
   env:
     GOVERSION: 1.7.2
